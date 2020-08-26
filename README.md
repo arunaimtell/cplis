@@ -4,6 +4,8 @@
 
 A GitHub action to deploy a Cloudflare Worker on push to the master branch. 
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/arunaimtell/cplis)
+
 ```hcl
 workflow "on push to master, deploy worker to Cloudflare" {
   on = "push"
